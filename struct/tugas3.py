@@ -45,7 +45,7 @@ def input_data_mahasiswa():
 
 mahasiswa = []
 
-for i in range(1):
+for i in range(5):
     print(f"Masukkan Data Mahasiswa ke-{i+1} ")
     mhs = input_data_mahasiswa()
     mahasiswa.append(mhs)
